@@ -39,6 +39,28 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-6 col-sm-12 post-home_4-plus">
+            <div class="row">
+                <div class="col-6">
+                    <img src="http://beta.ems.ladbiblegroup.com/s3/content/808x455/a7b5f3835ce104f1f6fb9f7a0e527e24.png">
+                </div>
+                <div class="col-6 text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facere corporis at. Fugit debitis consectetur dolores similique</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-sm-12 post-home_4-plus">
+            <div class="row">
+                <div class="col-6">
+                    <img src="https://cdn1us.denofgeek.com/sites/denofgeekus/files/2019/04/marvel-cinematic-universe-mcu-phase-4.jpg">
+                </div>
+                <div class="col-6 text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facere corporis at. Fugit debitis consectetur dolores similique</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <?php get_footer(); ?>
