@@ -11,18 +11,33 @@
     <?php wp_head(); ?>
 
 </head>
+<?php 
+    $id = get_the_ID();
+    $title = get_the_title(get_the_ID());
+?>
 <div class="header">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">BlogMarvel</a>
+        <a class="navbar-brand" href="http://localhost/wordpress/">BlogMarvel</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Filmes</a>
-            <a class="nav-item nav-link" href="#">Séries</a>
-            <a class="nav-item nav-link" href="#">Notícias</a>
-            <a class="nav-item nav-link" href="#">Curiosidades</a>
+                <a class="<?= ($title == 'Filmes') ? 'active' : 'ragatanga'; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/filmes/">
+                    Filmes
+                </a>
+                <a class="<?= ($title == 'Séries') ? 'active' : ''; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/series/">
+                    Séries
+                </a>
+                <a class="<?= ($title == 'Notícias') ? 'active' : ''; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/noticias/">
+                    Notícias
+                </a>
+                <a class="<?= ($title == 'Curiosidades') ? 'active' : ''; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/curiosidades/">
+                    Curiosidades
+                </a>
+                <a class="<?= ($title == 'Banco de wallpapers') ? 'active' : ''; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/banco-de-wallpapers/">
+                    Banco de wallpapers
+                </a>
             </div>
         </div>
     </nav>

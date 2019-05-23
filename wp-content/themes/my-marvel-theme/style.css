@@ -131,7 +131,12 @@ body {
     object-position: center;
 }
 
-.home .post-home_4-plus .row .text {
+.home .post-home_4-plus .row .text .card {
+    height: 100%;
+    padding: 10px;
+}
+
+/* .home .post-home_4-plus .row .text {
     background: rgba(210, 210, 210, 0.75);
     border-radius: 10px;
 }
@@ -139,4 +144,10 @@ body {
 .home .post-home_4-plus .row .text p {
     color: #333;
     text-shadow: 1px 1px 10px #000;
+} */
+
+.single-body .content {
+    font-family: serif;
+    padding: 30px;
+    text-align: justify;
 }

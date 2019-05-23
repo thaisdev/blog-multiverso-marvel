@@ -46,7 +46,9 @@
                     <img src="http://beta.ems.ladbiblegroup.com/s3/content/808x455/a7b5f3835ce104f1f6fb9f7a0e527e24.png">
                 </div>
                 <div class="col-6 text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facere corporis at. Fugit debitis consectetur dolores similique</p>
+                    <div class="card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facere corporis at.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,7 +58,9 @@
                     <img src="https://cdn1us.denofgeek.com/sites/denofgeekus/files/2019/04/marvel-cinematic-universe-mcu-phase-4.jpg">
                 </div>
                 <div class="col-6 text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facere corporis at. Fugit debitis consectetur dolores similique</p>
+                    <div class="card">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat facere corporis at.</p>
+                    </div>
                 </div>
             </div>
         </div>
