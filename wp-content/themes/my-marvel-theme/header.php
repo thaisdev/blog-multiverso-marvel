@@ -23,7 +23,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="<?= ($title == 'Filmes') ? 'active' : 'ragatanga'; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/filmes/">
+                <a class="<?= ($title == 'Filmes') ? 'active' : ''; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/filmes/">
                     Filmes
                 </a>
                 <a class="<?= ($title == 'Séries') ? 'active' : ''; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/series/">
@@ -44,7 +44,7 @@
     <div class="player">
         <div class="row">
             <div class="col-12 text-center">
-                <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/user/12180253127/playlist/3jO1yByeVLmZAuqgf9cpXz" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
             </div>
         </div>
     </div>
