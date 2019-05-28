@@ -37,7 +37,7 @@ CREATE TABLE `wp_users` (
   KEY `user_login_key` (`user_login`),
   KEY `user_nicename` (`user_nicename`),
   KEY `user_email` (`user_email`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -46,7 +46,7 @@ CREATE TABLE `wp_users` (
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'admin','$P$B5PEO7tCLylu1D3gqQXTr8PuoTzeMd.','admin','josythai@gmail.com','','2019-04-24 22:47:22','',0,'admin');
+INSERT INTO `wp_users` VALUES (1,'admin','$P$B5PEO7tCLylu1D3gqQXTr8PuoTzeMd.','admin','josythai@gmail.com','','2019-04-24 22:47:22','',0,'admin'),(2,'matheus','$P$BWi8FTS5HBSnZ1HhTjsibIGUAmKa/l.','matheus','matheusrostelato1@gmail.com','','2019-05-28 02:13:56','1559009637:$P$BEJzMCRxBQeyE8l7uFthbMJPvY1r7.1',0,'Matheus Rostelato');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -59,4 +59,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-27 21:20:13
+-- Dump completed on 2019-05-27 23:29:38
