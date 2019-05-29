@@ -1,16 +1,25 @@
 <?php get_header(); ?>
 
 <div class="container-fluid posts">
-    <?php if ( have_posts() ) : query_posts(array('orderby' => 'date', 'order' => 'DESC', 'category_name' => 'curiosidades')); ?>
+    <?php if ( have_posts() ) : query_posts(array('orderby' => 'date', 'order' => 'DESC', 'category_name' => 'filmes')); ?>
         <div class="row">
             <?php while ( have_posts() ) : the_post(); ?>
                 <div class="col-md-6 col-sm-12 post-card">
-                    <a href="<?php the_permalink(); ?>">
-                        <div class="card">
-                            <p><?php the_title(); ?></p>
-                            <small><?php the_time( 'j \d\e F \d\e Y' ); ?></small>
+                    <div class="row">
+                        <div class="col-6 image">
+                            <a href="<?php the_permalink(); ?>">
+                                <img class="lazy" data-src="<?php echo get_image_by_post_id($post->id); ?>">
+                            </a>    
                         </div>
-                    </a>
+                        <div class="col-6 text">
+                            <a href="<?php the_permalink(); ?>">
+                                <div class="card">
+                                    <p class="title-post"><?php the_title(); ?></p>
+                                    <small class="date-post"><?php the_time( 'j \d\e F \d\e Y' ); ?></small>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             <?php endwhile; ?>
         </div>

@@ -37,7 +37,7 @@ CREATE TABLE `wp_term_relationships` (
 
 LOCK TABLES `wp_term_relationships` WRITE;
 /*!40000 ALTER TABLE `wp_term_relationships` DISABLE KEYS */;
-INSERT INTO `wp_term_relationships` VALUES (1,1,0),(5,1,0),(32,5,0),(99,2,0),(99,4,0),(101,4,0),(103,4,0),(105,5,0),(107,5,0),(113,3,0);
+INSERT INTO `wp_term_relationships` VALUES (1,1,0),(5,1,0),(32,2,0),(32,5,0),(99,2,0),(99,4,0),(101,2,0),(101,4,0),(103,2,0),(103,4,0),(105,2,0),(105,5,0),(107,2,0),(107,5,0),(113,3,0),(113,4,0),(113,5,0),(119,3,0),(119,4,0),(121,2,0),(121,4,0),(123,2,0),(123,5,0),(125,2,0),(125,5,0);
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -50,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-27 23:29:39
+-- Dump completed on 2019-05-29  0:12:28

@@ -41,7 +41,7 @@ CREATE TABLE `wp_term_taxonomy` (
 
 LOCK TABLES `wp_term_taxonomy` WRITE;
 /*!40000 ALTER TABLE `wp_term_taxonomy` DISABLE KEYS */;
-INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,0),(2,2,'category','',0,1),(3,3,'category','',0,1),(4,4,'category','',0,3),(5,5,'category','',0,3);
+INSERT INTO `wp_term_taxonomy` VALUES (1,1,'category','',0,0),(2,2,'category','',0,8),(3,3,'category','',0,2),(4,4,'category','',0,6),(5,5,'category','',0,5);
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -54,4 +54,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-05-27 23:29:38
+-- Dump completed on 2019-05-29  0:12:27

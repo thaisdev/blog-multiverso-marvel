@@ -1,4 +1,16 @@
 <?php
+    function get_image_by_post_id($pid) { 
+        $post = get_post( $pid );
+        $content = $post->post_content;
+        $regex = '/src="([^"]*)"/';
+        preg_match_all( $regex, $content, $matches );
+        if ($matches[1][0]) {
+            return $matches[1][0];
+        } else {
+            return "http://localhost/wordpress/wp-content/uploads/2019/05/FB_IMG_1557960185115.jpg";
+        }
+    }
+
     add_theme_support( 'post-thumbnails' );
 
     add_action( 'init', 'posts_media' );

@@ -5,7 +5,7 @@
     ?>
     <div class="footer">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="http://localhost/wordpress/">BM</a>
+            <a class="navbar-brand" href="http://localhost/wordpress/">MM</a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="<?= ($title == 'Filmes') ? 'active' : ''; ?> nav-item nav-link" href="http://localhost/wordpress/index.php/filmes/">

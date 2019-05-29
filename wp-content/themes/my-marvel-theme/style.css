@@ -115,19 +115,44 @@ body {
     margin-top: 5px;
 }
 
-.posts .post-card {
+.posts .post-card .row {
     height: 150px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.posts .post-card .row .col-6.col-12 {
+.posts .post-card .row .col-6 {
     height: 100%;
 }
 
-.posts .post-card .card {
+.posts .post-card .row img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.posts .post-card .row .image {
+    padding-right: 0;
+}
+
+.posts .post-card .row .text {
+    padding-left: 0;
+}
+
+.posts .post-card .row .text .card {
     height: 100%;
     padding: 10px;
+}
+
+.posts .post-card .row .text .title-post {
+    font-weight: 900;
+}
+
+.posts .post-card .row .text .date-post {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
 }
 
 .posts .post-card a {
@@ -156,6 +181,26 @@ body {
     padding: 10px;
 }
 
-.wp-block-image {
+.wp-block-image, figure {
     text-align: center;
+}
+
+.content-404 {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+.content-404 .row {
+    width: 100%;
+}
+
+.content-404 .row .col-12.text-center {
+    color: #505050;
+    text-shadow: 5px 5px 10px #000;
+}
+
+.content-404 .row .col-12.text-center .not-found-code {
+    font-size: 128px;
+    font-family: monospace;
 }
