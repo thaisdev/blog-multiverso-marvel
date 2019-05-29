@@ -21,7 +21,7 @@ body {
 .header .navbar.navbar-expand-lg .navbar-brand,
 .footer .navbar.navbar-expand-lg .navbar-brand {
     text-shadow: 3px 3px 3px #333;
-    font-size: 24px;
+    font-size: 20x;
     font-style: italic;
     font-family: monospace;
 }
